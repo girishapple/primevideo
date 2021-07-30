@@ -1,0 +1,178 @@
+body
+{
+    background-color: #0f171e !important;
+}
+.progressBlock .leftProgress
+{
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 300px;
+    width: 1200px;
+}
+#movieblock
+{
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+#movieblock h1
+{
+    color: crimson;
+    font-size: 30px;
+    margin-top: 150px;
+    margin-left: 450px;
+    margin-bottom: 20px;
+}
+.btn-group button
+{
+    background-color: crimson;
+    margin-top: 120px;
+    width: 250px;
+    height: 30px;
+    margin-left: 450px;
+}
+#movieblock article
+{
+   width: 80%;
+   margin: 10px auto;
+}
+#movieblock article div form{
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+    padding: 10px;
+    align-items: centre;
+}
+#movieblock article div form div{
+    flex: 1;
+    margin: 10px;
+    background: rgba(212, 184, 26, 0.767);
+    padding: 10px;
+    box-shadow: 1px 1px 3px 1px rebeccapurple;
+    height: 100px;
+    align-items: centre;
+    display: flex;
+    flex-direction: column;
+}
+#movieblock article div form div label
+{
+    display: block;
+    width:200px;
+    font-size: 15px;
+    color: white;
+    padding: 10px 0;
+}
+#movieblock article div form div input,
+#movieblock article div form div textarea
+{
+   width: 100%;
+   padding: 10px;
+   border-radius: 5px;
+}
+#movieblock article div form div button
+{
+    width: 250px;
+    height: 30px;
+    background:crimson;
+    border-radius: 5px;
+    outline: none; 
+    border: none; 
+    margin: 10px 0;
+    padding: 10px;
+    margin-left: 400px;
+    margin-top: 20px !important;
+}
+.btn-group
+{
+    flex-basis: 100% !important;
+    box-shadow: none !important;
+    background: transparent !important;
+}
+
+.thumbnailBlock
+{
+    margin-top: 1500px;
+    margin-left: 300px;
+}
+#PrimeMovies article {
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  #PrimeMovies article .thumbnailBlock {
+    flex: 1;
+    margin: 5px;
+  }
+  #PrimeMovies > header {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 13px;
+  }
+  #PrimeMovies article .thumbnailBlock main p {
+    font-size: 13px;
+    padding: 5px 0;
+    text-transform: capitalize;
+  }
+  #PosterBlock figure {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 500px;
+  }
+  #PosterBlock figure img {
+    width: 100%;
+    filter: opacity(0.5);
+  }
+  #PosterBlock .container {
+    position: relative;
+  }
+  video {
+    width: 100%;
+    height: 85vh;
+    margin-top: 20px;
+  }
+  #PosterBlock article .container {
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+  }
+  
+  #PosterBlock article .container div.desc,
+  #PosterBlock article .showcase_poster {
+    flex-basis: 50%;
+    margin: 10px;
+  }
+  
+  #PosterBlock article .showcase_poster img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 3px;
+    margin-top: 100px;
+  }
+  
+  .container h2 {
+    margin: 30px 0;
+    text-transform: uppercase;
+  }
+  
+  .movie_desc {
+    padding: 20px 0;
+    margin-top: 100px;
+  }
+  .movie_desc h1 {
+   color:blueviolet;
+   margin-bottom: 10px;
+  }
+  
+  .watch button
+  {
+    width: 150px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    margin-top: 40px;
+  }
+
